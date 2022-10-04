@@ -1,5 +1,5 @@
 
--- ¹ÖÎïµØÍ¼ÒÔ¼°É½ºÓÉçğ¢Í¼²ĞÆ¬µôÂä½Å±¾
+-- ¹ÖÎïµØÍ¼ÒÔ¼°É½ºÓÉçğ¢Í¼²ĞÆ¬µô¢ä½Å±¾
 -- Edited by peres
 -- 2004/12/25 Ê¥µ®½ÚÍíÉÏ
 
@@ -36,13 +36,13 @@ local nMemCount = GetTeamSize()
 end
 
 
--- ¸ù¾İ¸÷ÖÖÌõ¼ş¸øÓèÍæ¼Ò²»Í¬ÀàĞÍµÄµØÍ¼Ö¾
+-- ¸ù¾İ¸÷ÖÖÌõ¼ş¸øÓèÍæ¼Ò²»Í¬ÀµĞÍµÄµØÍ¼Ö¾
 function AddMapValues()
 
 local myMapID, myMapName, myMapX, myMapY -- ÓÃÓÚ»ñÈ¡µØÍ¼Ö¾ĞÅÏ¢µÄ±äÁ¿
 local myTaskType = nt_getTask(1021)
-local nWorldMaps = nt_getTask(1027) -- ¿´¿´Íæ¼ÒÉíÉÏÓĞ¶àÉÙ¸öÉ½ºÓÉçğ¢Í¼
-local myMapNum = nt_getTask(1025) -- ÅĞ¶ÏÍæ¼ÒÉíÉÏÓĞ¶àÉÙÕÅµØÍ¼Ö¾
+local nWorldMaps = nt_getTask(1027) -- ¿´¿´Íæ¼ÒÉíÉÏÓĞ¶µÉÙ¸öÉ½ºÓÉçğ¢Í¼
+local myMapNum = nt_getTask(1025) -- ÅĞ¶ÏÍæ¼ÒÉíÉÏÓĞ¶µÉÙÕÅµØÍ¼Ö¾
 
 myMapID = SubWorldIdx2ID( SubWorld )
 
@@ -70,13 +70,13 @@ myMapID = SubWorldIdx2ID( SubWorld )
 		-- ¸øÍæ¼ÒÔö¼ÓÒ»¸öÉ½ºÓÉçğ¢Í¼²ĞÆ¬
 		nWorldMaps = nWorldMaps + 1
 		nt_setTask(1027,nWorldMaps)
-		Msg2Player("B¹n nhËn ®­îc mét m¶nh b¶n ®å S¬n Hµ X· T¾c! HiÖn t¹i b¹n cã tæng céng"..nWorldMaps.." m¶nh b¶n ®å S¬n Hµ X· T¾c.");
+		Msg2Player("B¹n nhËn ®­îc mét m¶nh b¶n ®å S¬n Hµ X· T¾c! HiÖn t¹i b¹n cã tæng céng "..nWorldMaps.." m¶nh b¶n ®å S¬n Hµ X· T¾c.");
 		
 	else
 		-- ¸øÍæ¼ÒÔö¼ÓÒ»¸öÉ½ºÓÉçğ¢Í¼²ĞÆ¬
 		nWorldMaps = nWorldMaps + 1
 		nt_setTask(1027,nWorldMaps)
-		Msg2Player("B¹n nhËn ®­îc mét m¶nh b¶n ®å S¬n Hµ X· T¾c! HiÖn t¹i b¹n cã tæng céng"..nWorldMaps.." m¶nh b¶n ®å S¬n Hµ X· T¾c.");
+		Msg2Player("B¹n nhËn ®­îc mét m¶nh b¶n ®å S¬n Hµ X· T¾c! HiÖn t¹i b¹n cã tæng céng "..nWorldMaps.." m¶nh b¶n ®å S¬n Hµ X· T¾c.");
 	end
 
 end
