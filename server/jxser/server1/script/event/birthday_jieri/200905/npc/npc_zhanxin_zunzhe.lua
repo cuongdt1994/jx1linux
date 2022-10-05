@@ -1,6 +1,6 @@
 -- ====================== ÎÄ¼şĞÅÏ¢ ======================
 
--- ½£ÏÀÇéÔµÍøÂç°æÔ½ÄÏÊÕ·Ñ°æ - Õ½ĞÄ×ğÕß¶Ô»°NPC
+-- ½£ÏÀÇéÔµÍø¢ç°æÔ½ÄÏÊÕ·Ñ°æ - Õ½ĞÄ×ğÕß¶Ô»°NPC
 -- ÎÄ¼şÃû¡¡£ºnpc_zhanxin_zunzhe.lua
 -- ´´½¨Õß¡¡£º×Ó·Çô~
 -- ´´½¨Ê±¼ä£º2009-06-01 14:27:01
@@ -37,7 +37,7 @@ function main()
 		SetTask(Task_lag_TskID, 0)
 	end                                                                                     
 	local tbOpt = {};                                                                                              
-	local szTitle = format("- Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter>- <color=Red>C­u Niªn T­¬ng Phïng <color><enter>- ViÖt ho¸ tæng hîp By <color=Green>Nam Cung NhÊt Thiªn<color>");   
+	local szTitle = format("- Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter>- <color=Red><color><enter><color=Green><color>");   
 	tinsert(tbOpt, 1, szTitle)  
 	tbVngToolAward:AddDialog(tbOpt, "ChiÕn T©m T«n Gi¶") 
 	
