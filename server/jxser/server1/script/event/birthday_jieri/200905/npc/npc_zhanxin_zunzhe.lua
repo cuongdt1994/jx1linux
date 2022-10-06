@@ -37,7 +37,7 @@ function main()
 		SetTask(Task_lag_TskID, 0)
 	end                                                                                     
 	local tbOpt = {};                                                                                              
-	local szTitle = format("- Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter>- <color=Red><color><enter><color=Green><color>");   
+	local szTitle = format("- Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter><color=Red><color><enter><color=Green><color>");   
 	tinsert(tbOpt, 1, szTitle)  
 	tbVngToolAward:AddDialog(tbOpt, "ChiÕn T©m T«n Gi¶") 
 	
