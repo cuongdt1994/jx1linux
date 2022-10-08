@@ -249,7 +249,7 @@ SKILLS={
 		skill_desc=
 			function(level)
 				local szTime = format("%.2f", (floor(Link(level,SKILLS.zhanren150.randmove[2])*100/18 )/100))
-				return "T¨ng thªm h×nh thøc thø hai <color=blue> ma ©m kÝch <color> vµ <color=orange>"..floor(100 -Link(level,SKILLS.zhanren150.missle_missrate[1])).."%<color>Tû lÖ khiÕn cho ®èi ph­¬ng khiÕp sî"..
+				return "T¨ng thªm h×nh thøc thø hai <color=blue> ma ©m kÝch <color> vµ <color=orange>"..floor(100 - Link(level,SKILLS.zhanren150.missle_missrate[1])).."%<color>Tû lÖ khiÕn cho ®èi ph­¬ng khiÕp sî"..
 						"<color=orange>"..szTime.." gi©y<color>\n"
 			end,
 		skill_eventskilllevel={{{1,1},{20,20}}},
