@@ -27,13 +27,13 @@ function main()
 		local strFaction = GetFaction()
 		local nW,nX,nY = GetWorldPos();
 		local tbSay = {format(TITLEDIALOG, GetName(), GetAccount() ,nW,nX,nY)};
-			tinsert(tbSay, "NhËn Point/CacLoaiDiem");
-			tinsert(tbSay, "Céng §iÓm Nhanh/add_prop");
-			tinsert(tbSay, "Boss/bosshk1");
-			tinsert(tbSay, "Hæ trî lµm nhiÖm vô Hoµng Kim/helpgoldquest");
-			tinsert(tbSay, "Hæ trî lµm nhiÖm vô M«n Ph¸i/help_quest");
-			tinsert(tbSay, "Thay §æi Tr¹ng Th¸i/trangthai");
-			tinsert(tbSay, "Söa lçi ThÇn Hµnh Phï/fixthanhanhphu");
+			--tinsert(tbSay, "NhËn Point/CacLoaiDiem");
+			--tinsert(tbSay, "Céng §iÓm Nhanh/add_prop");
+			--tinsert(tbSay, "Boss/bosshk1");
+			--tinsert(tbSay, "Hæ trî lµm nhiÖm vô Hoµng Kim/helpgoldquest");
+			--tinsert(tbSay, "Hæ trî lµm nhiÖm vô M«n Ph¸i/help_quest");
+			--tinsert(tbSay, "Thay §æi Tr¹ng Th¸i/trangthai");
+			--tinsert(tbSay, "Söa lçi ThÇn Hµnh Phï/fixthanhanhphu");
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 		CreateTaskSay(tbSay)
 	return 1;

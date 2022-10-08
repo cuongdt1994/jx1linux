@@ -1,11 +1,11 @@
 Include("\\script\\dailogsys\\dailogsay.lua");
 
 TRANGBIHIEM = {
-	["Vò LiÖt"] 			= 	{5953, 5957},
-	["Cè S¬n"] 			= 	{6705, 6716},
-	["ThÇn M·"] 			= 	{5933, 5938},
-	["Trang Søc NhËm Tiªu Dao"] 		= 	{6262, 6282},
-	["Hoµng Kim Ên"] 			= 	{5930, 5932},
+	--["Vò LiÖt"] 			= 	{5953, 5957},
+	--["Cè S¬n"] 			= 	{6705, 6716},
+	--["ThÇn M·"] 			= 	{5933, 5938},
+	--["Trang Søc NhËm Tiªu Dao"] 		= 	{6262, 6282},
+	--["Hoµng Kim Ên"] 			= 	{5930, 5932},
 	--["MÆt N¹"] 			= 	{5658, 5669},
 }
 

@@ -69,11 +69,10 @@ end
 
 ---Tien Dong---
 function tiendong()
-	AskClientForNumber("tiendong1",0,1000,"NhËp Sè L­îng:") 
-end;
-function tiendong1(sltiendong)
-	AddStackItem(sltiendong,4,417,1,1,0,0,0)
-	Msg2Player("B¹n nhËn ®­îc <color=yellow>"..sltiendong.." <color>tiÒn ®ång.")
+for i=1,999 do
+AddItem(4,417,1,1,1,1)
+end
+Say("NhËn thµnh c«ng xin h·y kiÓm tra !")
 end
 ------------Tµi L·nh §¹o----------------------------
 function tailanhdao()

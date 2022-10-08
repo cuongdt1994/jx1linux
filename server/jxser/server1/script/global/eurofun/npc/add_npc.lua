@@ -1,7 +1,7 @@
 
 
 new_npc = { 
-{1571,80,4,53,1624,3184,0,"Thö NghiÖm 8.0",0,"\\script\\global\\eurofun\\npc\\npc_thunghiem.lua"}, 
+--{1571,80,4,53,1624,3184,0,"Thö NghiÖm 8.0",0,"\\script\\global\\eurofun\\npc\\npc_thunghiem.lua"}, 
 }
 
 

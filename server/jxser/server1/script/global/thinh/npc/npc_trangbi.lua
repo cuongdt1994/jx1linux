@@ -15,9 +15,10 @@ function dialog_trangbi_main()
 	local tbOpt=
 	{"§å xanh/dialog_xanhtim",
 	"NhËn Trang BÞ Hoµng Kim/hoangkim",
-	"NhËn Trang BÞ B¹ch Kim/bachkim_main",
+	--"NhËn Trang BÞ B¹ch Kim/bachkim_main",
 	"Më réng r­¬ng/moruong",
 	"NhËn Ngùa/nhanngua",
+	"Xãa s¹ch r­¬ng ®å/DonSachRuong",
 	"Th«i./no",
 	}
 	Say(szTitle, getn(tbOpt), tbOpt)
@@ -45,8 +46,8 @@ function hoangkim()
 	"NhËn An Bang §Þnh Quèc/TrangBiHoangKimThuong",
 	"NhËn Bé Hoµng Kim/SetTrangBiHoangKim",
 	"NhËn TrÊn Bang Chi B¶o/TBCB",
-	"NhËn Trang BÞ HiÕm, Cao CÊp/TrangBiHiem",
-	"NhËn NhÉn Cµn Kh«n cÊp 10/NhanCanKhon",
+	--"NhËn Trang BÞ HiÕm, Cao CÊp/TrangBiHiem",
+	--"NhËn NhÉn Cµn Kh«n cÊp 10/NhanCanKhon",
 	"Trë L¹i/dialog_trangbi_main",
 	"Th«i./no",
 	}
@@ -61,6 +62,18 @@ function moruong()
 	OpenStoreBox(3)
 	SetPartnerBagLevel(10)
 end
+-----------------------Xoa ruong do----------------------------------------------
+function DonSachRuong()
+Say(" dän!")
+	local tbItems = {}
+			tbItems = GetRoomItems(0);
+			if (getn(tbItems) > 0) then
+				for i = 1, getn(tbItems) do
+					RemoveItemByIndex(tbItems[i],-1);
+				end
+			end
+end
+
 ----------------------Lay ngua --------------------------------------------------
 
 function nhanngua()
@@ -68,12 +81,12 @@ local szTitle = "Xin chµo <color=red>"..GetName().."<color>. Xin chän ngùa:"
 local tbOpt =
 	{	
 		"Ngùa 8x/nguathuong",
-		"Ngùa vâ l©m/nguavolam",
-		"Hæ B¸o S­ Tö/hobaosutu",
-		"Ngùa Hoµng Kim/nguahoangkim",
-		"Heo rõng/heorung",
-		"Cöu vÜ hå/holi",
-		"Trë L¹i/dialog_trangbi_main",
+		--"Ngùa vâ l©m/nguavolam",
+		--"Hæ B¸o S­ Tö/hobaosutu",
+		--"Ngùa Hoµng Kim/nguahoangkim",
+		--"Heo rõng/heorung",
+		--"Cöu vÜ hå/holi",
+		--"Trë L¹i/dialog_trangbi_main",
 		"Th«i./no",
 	}
 	Say(szTitle, getn(tbOpt), tbOpt)

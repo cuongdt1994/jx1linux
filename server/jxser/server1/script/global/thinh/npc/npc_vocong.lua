@@ -18,7 +18,7 @@ function dialog_vocong_main()
 	"Vµo ph¸i vµ häc ®Õn skill 150/choose_faction",
 	"Häc khinh c«ng/khinhcong",
 	"NhËn c¸c lo¹i ®iÓm/CacLoaiDiem",
-	"LÊy Skill Theo ID/LaySkillID",
+	--"LÊy Skill Theo ID/LaySkillID",
 	"§æi Tªn Nh©n VËt/doiten",	
 	"ChuyÓn ®æi giíi tÝnh, ngò hµnh/nguhanh",
 	"TÈy Tñy/clear_attibute_point",
