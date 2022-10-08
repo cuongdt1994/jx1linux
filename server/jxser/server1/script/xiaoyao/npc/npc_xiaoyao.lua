@@ -7,7 +7,7 @@ xiaoyao_parserby = {
 	{2602,1046,1645,3281, "\\script\\xiaoyao\\npc\\huongchinam.lua", "H­íng Nam Chi"},
 	{2606,1046,1771,3062, "\\script\\xiaoyao\\npc\\camdong.lua", "CÇm §ång"},
 	{2607,1046,1787,3073, "\\script\\xiaoyao\\npc\\kiemdong.lua", "KiÕm §ång"},
-	{2605,1046,1595,3242, "\\script\\xiaoyao\\npc\\lunglinh.lua", "Lung Linh"},
+	{2525,1046,1595,3242, "\\script\\xiaoyao\\npc\\lunglinh.lua", "Lung Linh"},
 	{2605,1046,1750,3225, "\\script\\activitysys\\npcdailog.lua", "V¨n B¸n S¬n"},
 	{2603,1046,1666,3112, "\\script\\activitysys\\npcdailog.lua", "LiÔu Tam BiÕn"},
 	{2604,1046,1657,3287, "\\script\\xiaoyao\\npc\\lythaungoc.lua", "Lý ThÊu Ngäc"},
